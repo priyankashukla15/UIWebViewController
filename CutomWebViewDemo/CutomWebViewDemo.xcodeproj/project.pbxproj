@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEC80B5F170AEFEE0061A470 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC80B5E170AEFEE0061A470 /* UIKit.framework */; };
+		CEC80B61170AEFEE0061A470 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC80B60170AEFEE0061A470 /* Foundation.framework */; };
+		CEC80B63170AEFEE0061A470 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC80B62170AEFEE0061A470 /* CoreGraphics.framework */; };
+		CEC80B69170AEFEE0061A470 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEC80B67170AEFEE0061A470 /* InfoPlist.strings */; };
+		CEC80B6B170AEFEE0061A470 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC80B6A170AEFEE0061A470 /* main.m */; };
+		CEC80B6F170AEFEE0061A470 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC80B6E170AEFEE0061A470 /* AppDelegate.m */; };
+		CEC80B71170AEFEE0061A470 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC80B70170AEFEE0061A470 /* Default.png */; };
+		CEC80B73170AEFEE0061A470 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC80B72170AEFEE0061A470 /* Default@2x.png */; };
+		CEC80B75170AEFEE0061A470 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC80B74170AEFEE0061A470 /* Default-568h@2x.png */; };
+		CEC80B78170AEFEE0061A470 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC80B77170AEFEE0061A470 /* MasterViewController.m */; };
+		CEC80B7B170AEFEE0061A470 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC80B7A170AEFEE0061A470 /* DetailViewController.m */; };
+		CEC80B7E170AEFEE0061A470 /* MasterViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEC80B7C170AEFEE0061A470 /* MasterViewController_iPhone.xib */; };
+		CEC80B81170AEFEE0061A470 /* MasterViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEC80B7F170AEFEE0061A470 /* MasterViewController_iPad.xib */; };
+		CEC80B84170AEFEE0061A470 /* DetailViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEC80B82170AEFEE0061A470 /* DetailViewController_iPhone.xib */; };
+		CEC80B87170AEFEE0061A470 /* DetailViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEC80B85170AEFEE0061A470 /* DetailViewController_iPad.xib */; };
+		CEC80B95170AEFF70061A470 /* backIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC80B8E170AEFF70061A470 /* backIcon.png */; };
+		CEC80B96170AEFF70061A470 /* backIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC80B8F170AEFF70061A470 /* backIcon@2x.png */; };
+		CEC80B97170AEFF70061A470 /* forwardIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC80B90170AEFF70061A470 /* forwardIcon.png */; };
+		CEC80B98170AEFF70061A470 /* forwardIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC80B91170AEFF70061A470 /* forwardIcon@2x.png */; };
+		CEC80B99170AEFF70061A470 /* UIWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC80B93170AEFF70061A470 /* UIWebViewController.m */; };
+		CEC80B9A170AEFF70061A470 /* UIWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEC80B94170AEFF70061A470 /* UIWebViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CEC80B5A170AEFEE0061A470 /* CutomWebViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CutomWebViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC80B5E170AEFEE0061A470 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEC80B60170AEFEE0061A470 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEC80B62170AEFEE0061A470 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEC80B66170AEFEE0061A470 /* CutomWebViewDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CutomWebViewDemo-Info.plist"; sourceTree = "<group>"; };
+		CEC80B68170AEFEE0061A470 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEC80B6A170AEFEE0061A470 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEC80B6C170AEFEE0061A470 /* CutomWebViewDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CutomWebViewDemo-Prefix.pch"; sourceTree = "<group>"; };
+		CEC80B6D170AEFEE0061A470 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEC80B6E170AEFEE0061A470 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEC80B70170AEFEE0061A470 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CEC80B72170AEFEE0061A470 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CEC80B74170AEFEE0061A470 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CEC80B76170AEFEE0061A470 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		CEC80B77170AEFEE0061A470 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		CEC80B79170AEFEE0061A470 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		CEC80B7A170AEFEE0061A470 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		CEC80B7D170AEFEE0061A470 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController_iPhone.xib; sourceTree = "<group>"; };
+		CEC80B80170AEFEE0061A470 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController_iPad.xib; sourceTree = "<group>"; };
+		CEC80B83170AEFEE0061A470 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController_iPhone.xib; sourceTree = "<group>"; };
+		CEC80B86170AEFEE0061A470 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController_iPad.xib; sourceTree = "<group>"; };
+		CEC80B8E170AEFF70061A470 /* backIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backIcon.png; sourceTree = "<group>"; };
+		CEC80B8F170AEFF70061A470 /* backIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backIcon@2x.png"; sourceTree = "<group>"; };
+		CEC80B90170AEFF70061A470 /* forwardIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forwardIcon.png; sourceTree = "<group>"; };
+		CEC80B91170AEFF70061A470 /* forwardIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "forwardIcon@2x.png"; sourceTree = "<group>"; };
+		CEC80B92170AEFF70061A470 /* UIWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIWebViewController.h; sourceTree = "<group>"; };
+		CEC80B93170AEFF70061A470 /* UIWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIWebViewController.m; sourceTree = "<group>"; };
+		CEC80B94170AEFF70061A470 /* UIWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UIWebViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEC80B57170AEFEE0061A470 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC80B5F170AEFEE0061A470 /* UIKit.framework in Frameworks */,
+				CEC80B61170AEFEE0061A470 /* Foundation.framework in Frameworks */,
+				CEC80B63170AEFEE0061A470 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEC80B4F170AEFEE0061A470 = {
+			isa = PBXGroup;
+			children = (
+				CEC80B64170AEFEE0061A470 /* CutomWebViewDemo */,
+				CEC80B5D170AEFEE0061A470 /* Frameworks */,
+				CEC80B5B170AEFEE0061A470 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEC80B5B170AEFEE0061A470 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEC80B5A170AEFEE0061A470 /* CutomWebViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEC80B5D170AEFEE0061A470 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEC80B5E170AEFEE0061A470 /* UIKit.framework */,
+				CEC80B60170AEFEE0061A470 /* Foundation.framework */,
+				CEC80B62170AEFEE0061A470 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEC80B64170AEFEE0061A470 /* CutomWebViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CEC80B8D170AEFF70061A470 /* UIWebViewController */,
+				CEC80B6D170AEFEE0061A470 /* AppDelegate.h */,
+				CEC80B6E170AEFEE0061A470 /* AppDelegate.m */,
+				CEC80B76170AEFEE0061A470 /* MasterViewController.h */,
+				CEC80B77170AEFEE0061A470 /* MasterViewController.m */,
+				CEC80B79170AEFEE0061A470 /* DetailViewController.h */,
+				CEC80B7A170AEFEE0061A470 /* DetailViewController.m */,
+				CEC80B7C170AEFEE0061A470 /* MasterViewController_iPhone.xib */,
+				CEC80B7F170AEFEE0061A470 /* MasterViewController_iPad.xib */,
+				CEC80B82170AEFEE0061A470 /* DetailViewController_iPhone.xib */,
+				CEC80B85170AEFEE0061A470 /* DetailViewController_iPad.xib */,
+				CEC80B65170AEFEE0061A470 /* Supporting Files */,
+			);
+			path = CutomWebViewDemo;
+			sourceTree = "<group>";
+		};
+		CEC80B65170AEFEE0061A470 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEC80B66170AEFEE0061A470 /* CutomWebViewDemo-Info.plist */,
+				CEC80B67170AEFEE0061A470 /* InfoPlist.strings */,
+				CEC80B6A170AEFEE0061A470 /* main.m */,
+				CEC80B6C170AEFEE0061A470 /* CutomWebViewDemo-Prefix.pch */,
+				CEC80B70170AEFEE0061A470 /* Default.png */,
+				CEC80B72170AEFEE0061A470 /* Default@2x.png */,
+				CEC80B74170AEFEE0061A470 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEC80B8D170AEFF70061A470 /* UIWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CEC80B8E170AEFF70061A470 /* backIcon.png */,
+				CEC80B8F170AEFF70061A470 /* backIcon@2x.png */,
+				CEC80B90170AEFF70061A470 /* forwardIcon.png */,
+				CEC80B91170AEFF70061A470 /* forwardIcon@2x.png */,
+				CEC80B92170AEFF70061A470 /* UIWebViewController.h */,
+				CEC80B93170AEFF70061A470 /* UIWebViewController.m */,
+				CEC80B94170AEFF70061A470 /* UIWebViewController.xib */,
+			);
+			path = UIWebViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEC80B59170AEFEE0061A470 /* CutomWebViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC80B8A170AEFEE0061A470 /* Build configuration list for PBXNativeTarget "CutomWebViewDemo" */;
+			buildPhases = (
+				CEC80B56170AEFEE0061A470 /* Sources */,
+				CEC80B57170AEFEE0061A470 /* Frameworks */,
+				CEC80B58170AEFEE0061A470 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CutomWebViewDemo;
+			productName = CutomWebViewDemo;
+			productReference = CEC80B5A170AEFEE0061A470 /* CutomWebViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEC80B51170AEFEE0061A470 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Priyanka Shah";
+			};
+			buildConfigurationList = CEC80B54170AEFEE0061A470 /* Build configuration list for PBXProject "CutomWebViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEC80B4F170AEFEE0061A470;
+			productRefGroup = CEC80B5B170AEFEE0061A470 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEC80B59170AEFEE0061A470 /* CutomWebViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEC80B58170AEFEE0061A470 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC80B69170AEFEE0061A470 /* InfoPlist.strings in Resources */,
+				CEC80B71170AEFEE0061A470 /* Default.png in Resources */,
+				CEC80B73170AEFEE0061A470 /* Default@2x.png in Resources */,
+				CEC80B75170AEFEE0061A470 /* Default-568h@2x.png in Resources */,
+				CEC80B7E170AEFEE0061A470 /* MasterViewController_iPhone.xib in Resources */,
+				CEC80B81170AEFEE0061A470 /* MasterViewController_iPad.xib in Resources */,
+				CEC80B84170AEFEE0061A470 /* DetailViewController_iPhone.xib in Resources */,
+				CEC80B87170AEFEE0061A470 /* DetailViewController_iPad.xib in Resources */,
+				CEC80B95170AEFF70061A470 /* backIcon.png in Resources */,
+				CEC80B96170AEFF70061A470 /* backIcon@2x.png in Resources */,
+				CEC80B97170AEFF70061A470 /* forwardIcon.png in Resources */,
+				CEC80B98170AEFF70061A470 /* forwardIcon@2x.png in Resources */,
+				CEC80B9A170AEFF70061A470 /* UIWebViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEC80B56170AEFEE0061A470 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC80B6B170AEFEE0061A470 /* main.m in Sources */,
+				CEC80B6F170AEFEE0061A470 /* AppDelegate.m in Sources */,
+				CEC80B78170AEFEE0061A470 /* MasterViewController.m in Sources */,
+				CEC80B7B170AEFEE0061A470 /* DetailViewController.m in Sources */,
+				CEC80B99170AEFF70061A470 /* UIWebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEC80B67170AEFEE0061A470 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC80B68170AEFEE0061A470 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEC80B7C170AEFEE0061A470 /* MasterViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC80B7D170AEFEE0061A470 /* en */,
+			);
+			name = MasterViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		CEC80B7F170AEFEE0061A470 /* MasterViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC80B80170AEFEE0061A470 /* en */,
+			);
+			name = MasterViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		CEC80B82170AEFEE0061A470 /* DetailViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC80B83170AEFEE0061A470 /* en */,
+			);
+			name = DetailViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		CEC80B85170AEFEE0061A470 /* DetailViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC80B86170AEFEE0061A470 /* en */,
+			);
+			name = DetailViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEC80B88170AEFEE0061A470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEC80B89170AEFEE0061A470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEC80B8B170AEFEE0061A470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CutomWebViewDemo/CutomWebViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "CutomWebViewDemo/CutomWebViewDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEC80B8C170AEFEE0061A470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CutomWebViewDemo/CutomWebViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "CutomWebViewDemo/CutomWebViewDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEC80B54170AEFEE0061A470 /* Build configuration list for PBXProject "CutomWebViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC80B88170AEFEE0061A470 /* Debug */,
+				CEC80B89170AEFEE0061A470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC80B8A170AEFEE0061A470 /* Build configuration list for PBXNativeTarget "CutomWebViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC80B8B170AEFEE0061A470 /* Debug */,
+				CEC80B8C170AEFEE0061A470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEC80B51170AEFEE0061A470 /* Project object */;
+}
